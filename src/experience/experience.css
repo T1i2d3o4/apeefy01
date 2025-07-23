@@ -1,0 +1,93 @@
+.experience {
+    background-color: white;
+    padding: 100px;
+}
+.exp {
+    font-size: 60px;
+    color: #13074B;
+    margin-left: -70px;
+    margin-top: 10px;
+}
+.image {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+.carre {
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+}
+.effacement {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 2px;
+    height: 240px;
+    background-color: white;
+}
+.imag {
+    position: relative;
+    display: inline-block;
+    margin-top: -200px;
+    margin-left: 970px;
+}
+.car {
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+}
+.efface {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    width: 29px;
+    height: 245px;
+    background-color: white;
+}
+.image .ecrit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    top: 90px;
+    left: 120px;
+}
+.imag .pa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    top: 90px;
+    left: 120px;
+}
+.ca {
+    font-size: 50px;
+}

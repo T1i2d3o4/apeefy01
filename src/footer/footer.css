@@ -1,12 +1,31 @@
+ PROJET
+.foot{
+    margin-top: 0px;
+    background-color: #0B76A0;
+    height: 400px;
+    /* background-color: black; */
+
 
 .foot{
     margin-top: 50px;
     
     height: 400px;
     
+ main
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0;
+
+ PROJET
+}
+ .div{
+    
+    border-right: 1px solid white;
+    padding: 10px;
+
+} 
+.div :last-child{
+    border-right: none;
 
 
 }
@@ -20,6 +39,7 @@
 .div :last-child{
     border-right: none;
 
+ main
 }
 .logo {
     width: 100px;
@@ -45,6 +65,13 @@
     text-align: center;
     margin-top: 20px;
     
+ PROJET
+}
+.lien {
+    text-decoration: none;
+    color: white;
+}
+
     
 }
 .lien{
@@ -56,3 +83,4 @@
     color: aqua;
 } */
 
+ main
