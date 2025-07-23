@@ -1,0 +1,75 @@
+.member{
+    margin-right: 1%;
+}
+.team-member{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+#horizontal_line {
+    width: 20%;
+    height: 2px;
+    padding: 0;
+    background-color:white;
+    margin: 20px 0;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    
+    
+    
+} 
+.team-member p{
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+}
+.photo{
+    width: 120px;
+    
+}
+.person{
+    max-width: 100%;
+    background-color: white;
+    border-top-right-radius:60px;
+    border-bottom-left-radius:60px ;
+
+}
+.person p{
+    padding: 30px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+    
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.log{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.link{
+    display: inline-block;
+    
+   
+
+}
+#member{
+    margin-right: 2%;
+    display: block;
+    margin-left: 2%;
+    
+}
+
