@@ -1,0 +1,195 @@
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #0B76A0; /* Couleur de fond pour la section contact */
+    gap: 140PX; /* Espace entre les éléments */
+   
+}
+.c{
+    text-align: center;
+    margin-top: -200PX;
+    font-size: 20px;
+    
+}
+.horizontal-ligne {
+    width: 60%;
+    height: 2px;
+    background-color: white;
+    margin: -50px ;
+    margin-left: -901px;
+    margin-top: -1900PX;
+}
+.horizont-ligne {
+    width: 40%;
+    height: 2px;
+    background-color: white;
+    margin: -50px ;
+    margin-left: -301px;
+    margin-top: 46px;
+}
+.contact-form {
+    max-width: 600px;
+    background-color: #0B76A0; /* Couleur de fond du formulaire */
+    padding: 30px;
+    border-radius: 200px;
+    color: white;
+}
+.trait-vertical{
+width: 2px;
+height: 400px;
+background-color: white;
+margin-top: -400px;
+margin-left: 700px;
+}
+.contact-form h2{
+    color: white; /* Couleur du titre du formulaire */
+    margin-bottom: 100px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 70px;
+    font-size: 20px;
+}
+
+/*au centre*/
+.contact-form button{
+    background-color:black; /* Couleur
+    du bouton */
+    color: white; /* Couleur du texte du bouton */
+    padding: 10px 50px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+
+}
+/* .Vertical-line{
+    width: 2px;
+    height: 100px;
+    background-color:black;
+    margin: 20px;
+} */
+ .trait-vertical{
+    width: 2px;
+ }
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #0B76A0;
+    transition: transform 2s;
+}
+.Box:hover{
+    transform: rotate(360deg);
+}
+.contact-info {
+    flex: 1;
+    color: #f3f3f3; 
+    padding: 20px; 
+    border-radius: 8px;
+    margin-top: -450px;
+    margin-left: 700px;
+    
+    
+    
+}  
+.loca {
+ margin: 10px;
+ margin-left: 10px;
+ border-color: #0B76A0;
+}
+.tel{
+    margin: -270px;
+    margin-left: 10px;
+
+}
+.email{
+    margin: 10px;
+    margin-left: 0px;
+}
+.trait-verticale{
+width: 1px;
+height: 400px;
+background-color: white;
+margin: 280px;
+padding: 1px;
+margin-top: -90px;
+
+}
+#contact{
+    margin: 200px;
+    margin-left: 20px;
+    color: white;
+    padding: 10px;
+    margin-top: -90px;
+    margin-left: -400px;
+    margin-right: 20px;
+}
+.icone-git{
+    margin: 0px;
+    color: #f3f3f3;
+    margin-top: -20px;
+}
+.icone-face{
+    margin: 5px;
+    margin-left:0px;
+    color: #f3f3f3;
+}
+.infor{
+    margin: 400px;
+    border-radius: 200px;
+    margin-left: -900px;
+    padding: -60px;
+    display: inline-block;
+}
+.js-logo{
+    margin: 190px;
+    margin-left: -90px;
+    border-radius: 30px;
+    padding: 100px;
+    margin-top: 20px;
+    
+}
+.animated{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    animation: bouceAnimated 3s ease-in-out infinite;
+    padding: inline-block;
+}
+@keyframes bounceAnimated {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(-5cm);
+    }
+    100%{
+        transform:translate(0);
+    }
+    
+}
+.lien {
+    color: white;
+}
+.envoie {
+    text-align: center;
+    margin-left: 250px;
+}
+.ima {
+    border-radius:100px;
+}
+.js {
+    margin-left: 500px;
+    margin-top: -600px;
+}
