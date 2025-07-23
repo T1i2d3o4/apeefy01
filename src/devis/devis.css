@@ -1,0 +1,87 @@
+.devis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    background-image: url('images/img_devis.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    width: 1380px; 
+    height: 633px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    
+}
+.devis label {
+    margin: 10px 0;
+    font-size: 20px;
+    color: white;
+}
+.devis input, .devis textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+}
+.devis button {
+    padding: 10px 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.horizontal_line {
+    width: 30%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.zone{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+}
+#textarea {
+    width: 97%;
+    height: 17%;
+    padding: 2%;
+    margin-bottom: 30px;
+    border-radius: 3px; 
+}
+.alert{
+  color: red;
+  background-color: #f8d7da;
+  margin-left: 50%;
+  margin-top: none;
+  margin-bottom: 10px; 
+  
+  text-align: center;
+  border-radius: 4px; 
+  width: 300px;
+  
+}
+.alert p{
+  margin: 0;
+  padding: none;
+  font-size: 14px;
+  color:red ;
+  
+}
+.btn{
+    justify-content:center;
+    margin-left: 32%;
+}

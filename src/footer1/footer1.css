@@ -1,51 +1,36 @@
- PROJET
-.foot{
-    margin-top: 0px;
-    background-color: #0B76A0;
-    height: 400px;
-    /* background-color: black; */
-
 
 .foot{
     margin-top: 50px;
-    
-    height: 400px;
-    
- main
+    background-color: rgb(0, 87, 141);
+    height: 800px;
+    /* background-color: black; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0;
+    
+    
 
- PROJET
 }
  .div{
     
-    border-right: 1px solid white;
+    border-right: 1px solid rgb(223, 227, 230);
     padding: 10px;
+    color: aliceblue;
 
 } 
 .div :last-child{
     border-right: none;
-
-
-}
-.div{
+    color: aliceblue;
     
-    border-right: 1px solid white;
-    padding: 10px;
-    
-    
-} 
-.div :last-child{
-    border-right: none;
-
- main
 }
 .logo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0px;
+    margin: 10px;
 }
  #pr {
     color: white;
@@ -57,7 +42,7 @@
     height: 30px;
     margin-right: 10px;
     border-radius: 50%;
-    
+    color: white;
 }
 #p {
     color: white;
@@ -65,22 +50,11 @@
     text-align: center;
     margin-top: 20px;
     
- PROJET
 }
-.lien {
-    text-decoration: none;
+.logo{
+    border-radius: 300px;
     color: white;
 }
-
-    
+.foot{
+    margin-top: 2Opx;
 }
-.lien{
-    text-decoration: none;
-    color: white;
-
-}
-/* .lien :hover{
-    color: aqua;
-} */
-
- main
