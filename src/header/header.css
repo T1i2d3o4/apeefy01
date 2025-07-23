@@ -1,4 +1,5 @@
 body {
+ contact
     margin:10px;
     padding: 10px;
     background-color: #0B76A0;
@@ -104,3 +105,81 @@ p{
     padding: 10% 0;
     box-sizing: border-box;
 }
+
+    margin: 0;
+    padding: 0;
+    background-color: #0B76A0;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+        
+    
+    
+}
+.menu li {
+    list-style: none;
+    
+
+} 
+.menu li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color:black;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    
+}
+
+/* Même couleur pour tous les liens et séparation */
+.menu li a {
+    background-color: white;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+.menu li:last-child a {
+    margin-right: 0;
+}
+.navbar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+#pa {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-bottom: 300px;
+
+} 
+#horizontal {
+    width: 600%;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px;
+    display:flex;
+    margin-left: -3000%;
+    
+}   
+
+
+    
+ main
